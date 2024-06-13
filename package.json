@@ -7,7 +7,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "postinstall": "echo 'postinstall'",
+    "start": "echo 'start' && node index.js",
+    "build": "echo 'build'",
     "test": "node test.js"
   },
   "dependencies": {
